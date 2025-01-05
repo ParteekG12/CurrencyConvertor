@@ -1,0 +1,112 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4e4ba;
+    height: 100vh;
+}
+
+.body
+{
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    width: 300px;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px ;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.from
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.to
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.from-to
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#amt
+{
+    height: 35px;
+    width: 300px;
+    border-radius: 7px;
+    border-width:1px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#amt:hover {
+    border-color: #DA498D; /* Color change on hover */
+}
+
+
+select
+{
+    border-radius: 7px;
+    height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 2px 2px;
+    cursor: pointer;
+    
+}
+
+select:hover {
+    background-color: #e6f7ff; /* Slightly lighter background on hover */
+}
+
+
+#result_text
+{
+    font-size: 20px;
+}
+
+#submit
+{
+    height: 45px;
+    font-size: 16px;
+    border-radius: 7px;
+    border-width: 1px;
+    cursor: pointer;
+    background-color: #DA498D;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+#submit:hover {
+    background-color: #D94B91; /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#submit:active {
+    background-color: #C4407A; /* Even darker shade on click */
+    transform: scale(1); /* Reset scale when clicked */
+}
